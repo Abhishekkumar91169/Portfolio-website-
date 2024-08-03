@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/ac4c2dd006.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Website Designer</p>
+                <h1>HI, I'm <span>Abhishek </span> <br>kumar from Rajasthan </h1>
+                <P> A Frontend Developer specialized in creating the visual and interactive <br>aspects of websites and application using technpologies like HTML, CSS <br>and Jvascript and their framework.Focus on ensuring a seamless user experience,<br> optimizing performance across different devices and browsers.</P>
+            </div>
+        </div>
+    </div>
+    <!-----------------------about me------------------>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <P>I am passionate Frontend Developer specialized in creating visually
+                         appealing and user-friendly web application. with a solid foundation
+                          in HTML,CSS, and Javascript and their framework, I excel at transforming
+                           ideas into responsive and interactive digital experience. MY focus is on
+                            crafting clean and efficient code that enhance performance and accessibility.
+                            constantly exploring new technologies and design trends, I strive to deliver 
+                            top-notch solutions that meet users' needs and exceed client expectation.</P>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML5</span><br>Create for web pages </li>
+                                <li><span>CSS</span><br>Design for web pages </li>
+                                <li><span>Jvascript</span><br>Allows you to make web pages interactive </li>
+                                <li><span>Wordpress</span><br>Wordpress is content management system</li>
+                                <li><span>SQL</span><br>Structured Query Language is a domain-specific language used to manage data, especially in a RDBMS.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2023</span><br>Web Development training at Apna College. </li>
+                                <li><span>2024</span><br>45 days Web Developer internship Program for CodEvo Solution. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2022 - 2025</span><br>BCA From JECRC University, Jaipur. </li>
+                                <li><span>2023</span><br>Buy For Web Development Course From Apna College. </li>
+                            </ul>
+                        </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Frontend design</h2>
+               <p>Front-end web development is the development of the graphical user interface of a website through the use of HTML, CSS, and JavaScript so users can view and interact with that website.
+                <a href="#">Learn More</a>
+               </p> 
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web design</h2>
+               <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.
+                <a href="#">Learn More</a>
+               </p> 
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Wordpress website design </h2>
+               <p>WordPress is a free, open-source website creation platform. On a more technical level, WordPress is a content management system (CMS) written in PHP that uses a MySQL database. WordPress is the easiest and most powerful blogging and website builder in existence today.
+                <a href="#">Learn More</a>
+               </p> 
+            </div>
+        </div>
+        </div>    
+    </div>
+    <!-- -----------------portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media website</h3>
+                        <P>A social networking service or SNS is a type of online social media platform which people use to build social networks or social relationships with other people who share similar personal or career content, interests, activities, backgrounds or real-life connections. </P>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Netflix website</h3>
+                        <P>Netflix is an American subscription video on-demand Internet streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.  </P>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping website</h3>
+                        <P>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app </P>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>Bca22.ANISH.SAINI@SUNSTONE.edu.In</p>
+                    <p><i class="fa-solid fa-phone"></i>6376244825</p>
+                    <div class="social-icon">
+                        <a href="https://linkdin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://Freelancer.com"><i class="fa-solid fa-franc-sign"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <!-- ---------------------form------------------>
+                    <form name="submit-to-google-shee">
+                        <input type="text " name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="Msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Anish. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script> 
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx-GU4Q2P0Es6vBFPXqYwBFSGKfdter0Bw6ioumqbg0MaDZRFfcEI48LbS2D9k9gXUi/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const Msg = document.getElementById("Msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reeset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html> 
